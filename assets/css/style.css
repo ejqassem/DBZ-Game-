@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+@font-face {
+  font-family: "DBZ font";
+  src: url("saiyan-sans/Saiyan-Sans.ttf");
+}
+
+.jumbotron {
+  background-image: url("../images/DBZ-background2.jpg");
+  background-size: cover;
+  background-position: top 0px right 1325px;
+  height: 850px;
+  min-width: 100%;
+  margin-bottom: 0px;
+}
+
+#header {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 120px;
+}
+
+#header1 {
+  font-family: "DBZ font";
+  color: #ffde13;
+}
+
+#header2 {
+  font-family: "DBZ font";
+  color: #c9071f;
+}
+
+#header3 {
+  font-family: "DBZ font";
+  color: black;
+  text-shadow: 1px 0 0 red, 0 -1px 0 red, 0 1px 0 red, -1px 0 0 red;
+}
+
+#second-header {
+  font-family: "DBZ font";
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 60px;
+}
+
+#selectHero {
+  text-align: center;
+  font-family: "DBZ font";
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 35px;
+}
+
+#selectEnemy {
+  text-align: center;
+  font-family: "DBZ font";
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 35px;
+}
+
+img:hover {
+  box-shadow: 0 0 10px red;
+}
+
+#startGame {
+  font-family: "DBZ font";
+  position: absolute;
+  bottom: 100px;
+  right: 480px;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a {
+  font-family: "DBZ font";
+  color: black;
+  text-align: center;
+}
+
+#heroes {
+  overflow: visible;
+}
+
+#enemies {
+  overflow: visible;
+}
+
+#vsHeading {
+  position: absolute;
+  bottom: -225px;
+  right: 80px;
+  font-family: "DBZ font";
+  color: black;
+  text-shadow: 1px 0 0 red, 0 -1px 0 red, 0 1px 0 red, -1px 0 0 red;
+}
+
+#heroDisplay {
+  position: absolute;
+  bottom: 120px;
+  left: 190px;
+}
+
+#enemyDisplay {
+  position: absolute;
+  right: -40px;
+  bottom: 170px;
+}
+
+
+#heroFight {
+  position: relative;
+}
+
+#enemyFight {
+  position: relative;
+}
+
+#gokuFight {
+  clear: both;
+  overflow: auto;
+  height: 180px;
+  width: 105px;
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+  background-image: url("../images/goku-sprite-final.png");
+}
+
+#gohanFight {
+  clear: both;
+  overflow: auto;
+  height: 150px;
+  width: 80px;
+  position: fixed;
+  bottom: 100px;
+  left: 110px;
+  background-image: url("../images/teen-gohan.png");
+}
+
+#cellFight {
+  clear: both;
+  overflow: auto;
+  height: 170px;
+  width: 120px;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  background-image: url("../images/perfect-cell-sprite-3.png");
+}
